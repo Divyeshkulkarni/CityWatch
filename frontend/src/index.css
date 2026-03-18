@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-white overflow-x-hidden;
+  }
+}
+
+@layer utilities {
+  .glassmorphism {
+    background-color: rgba(110, 198, 57, 1);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    @apply border border-white border-opacity-10;
+  }
+
+  .bg-custom-green {
+    background-color: #6EC639 !important;
+  }
+
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Fullscreen Camera Feed Optimization */
+  div:fullscreen {
+    background-color: black !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  div:fullscreen .rounded-xl {
+    border-radius: 0 !important;
+  }
+}
+
+
+
+
