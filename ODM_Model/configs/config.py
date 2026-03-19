@@ -10,13 +10,13 @@ DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 # ─────────────────────────────────────────────
 # DATASET (COCO)
 # ─────────────────────────────────────────────
-COCO_ROOT     = r"D:\VS codes\ML Coding\People_vehicles dataset"
+COCO_ROOT     = r"D:\Projects\ODM Project\People_vehicles dataset"
 
-TRAIN_ANN     = r"D:\VS codes\ML Coding\People_vehicles dataset\annotations\annotations_trainval2017\annotations\instances_train2017.json"
-VAL_ANN       = r"D:\VS codes\ML Coding\People_vehicles dataset\annotations\annotations_trainval2017\annotations\instances_val2017.json"
+TRAIN_ANN     = r"D:\Projects\ODM Project\People_vehicles dataset\annotations\annotations_trainval2017\instances_train2017.json"
+VAL_ANN       = r"D:\Projects\ODM Project\People_vehicles dataset\annotations\annotations_trainval2017\instances_val2017.json"
 
-TRAIN_IMG_DIR = r"D:\VS codes\ML Coding\People_vehicles dataset\filtered_images"
-VAL_IMG_DIR   = r"D:\VS codes\ML Coding\People_vehicles dataset\filtered_images"
+TRAIN_IMG_DIR = r"D:\Projects\ODM Project\People_vehicles dataset\filtered_images"
+VAL_IMG_DIR   = r"D:\Projects\ODM Project\People_vehicles dataset\filtered_images"
 
 # COCO class IDs we care about
 TARGET_CLASSES = {1: "person", 2: "bicycle", 3: "car",

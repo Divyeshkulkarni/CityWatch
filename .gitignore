@@ -31,4 +31,24 @@ outputs/
 data_split.json
 
 # Test files
-test.py
+ test.py
+# --------------------------------------------------------------------------------
+
+# Unity generated
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+UserSettings/
+MemoryCaptures/
+
+# Visual Studio
+.vs/
+*.csproj
+*.sln
+
+# OS
+.DS_Store
+Thumbs.db
